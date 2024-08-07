@@ -392,10 +392,13 @@ header ul.is-sticky li a.active {
 #agents .card p {
     padding-left: 1rem;
 }
-
+.best{
+    margin-right: 60px;
+}
 .best video{
+    width: 100%;
     border-radius: 10px;
-    margin-right: 50px;
+    /* margin-right: 40px; */
     /* margin-top: 20px; */
    
 }
@@ -782,6 +785,9 @@ footer small a:hover {
 }
 
 @media (max-width: 767px) {
+    .best{
+        display: none;
+    }
     h1 {
         font-size: 2rem;
     }
@@ -976,7 +982,7 @@ footer small a:hover {
 
 .agent1{
     height: 250px;
-    width: 300px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-image: url(./assets/agent1.jpg);
@@ -984,7 +990,7 @@ footer small a:hover {
 }
 .agent2{
     height: 250px;
-    width: 300px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-image: url(./assets/agent2.jpg);
@@ -992,7 +998,7 @@ footer small a:hover {
 }
 .agent3{
     height: 250px;
-    width: 300px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-image: url(./assets/agent3.jpg);
@@ -1000,7 +1006,7 @@ footer small a:hover {
 }
 .agent4{
     height: 250px;
-    width: 300px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-image: url(./assets/agent4.jpg);
@@ -1009,9 +1015,8 @@ footer small a:hover {
 }
 .agent5{
     height: 250px;
-    width: 300px;
+    width: 100%;
     background-size:cover;
-    
     background-position: center;
     background-image: url(./assets/agent5.jpg);
     border-radius: 10px;
@@ -1019,10 +1024,10 @@ footer small a:hover {
 }
 .agent6{
     height: 250px;
-    width: 300px;
-    margin-top: 0px;
-    background-size: cover;
+    width: 100%;
+    background-size:cover;
     background-position: center;
-    background-image: url(./assets/agent6.jpg);
+    background-image: url(./assets/agent5.jpg);
     border-radius: 10px;
+    margin-top: 0px;
 }

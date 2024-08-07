@@ -898,6 +898,7 @@ footer small a:hover {
     #hero .hero-text {
         width: 330px;
     }
+    
 
     #agents {
         margin: 4rem 0 3rem;
@@ -968,6 +969,8 @@ footer small a:hover {
      max-width: 275px;
      width: 100%;
   }
+ 
+
 
   #properties button.rounded {
      max-width: 250px;
@@ -1008,7 +1011,7 @@ footer small a:hover {
     height: 250px;
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position:top center;
     background-image: url(./assets/agent4.jpg);
     border-radius: 10px;
     margin-top: 0px;
@@ -1017,7 +1020,7 @@ footer small a:hover {
     height: 250px;
     width: 100%;
     background-size:cover;
-    background-position: center;
+    background-position:top center;
     background-image: url(./assets/agent5.jpg);
     border-radius: 10px;
     margin-top: 0px;
@@ -1026,8 +1029,20 @@ footer small a:hover {
     height: 250px;
     width: 100%;
     background-size:cover;
-    background-position: center;
-    background-image: url(./assets/agent5.jpg);
+    background-position:top center ;
+    background-image: url(./assets/agent6.jpg);
     border-radius: 10px;
     margin-top: 0px;
+}
+
+@media (min-width: 400px) and (max-width: 500px){
+    .agent6{
+        height: 250px;
+        width: 100%;
+        background-size:cover;
+        background-position: top center ;
+        background-image: url(./assets/agent6new.png);
+        border-radius: 10px;
+        margin-top: 0px;
+    }
 }
